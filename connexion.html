@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StayFinder - Connexion</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="styleconnexion.css">
+</head>
+<body>
+    <div class="login-container">
+
+        <div class="login-left">
+            <div class="logo">
+                <span>Stay</span>Finder
+            </div>
+            
+            <h1 class="mb-4 animate__animated animate__fadeIn animate__delay-1s">Bienvenue à nouveau</h1>
+            <p class="lead mb-5 animate__animated animate__fadeIn animate__delay-1s">Connectez-vous pour accéder à votre compte et découvrir nos hébergements exceptionnels.</p>
+            
+            <div class="mt-5">
+                <div class="d-flex align-items-center mb-4 animate__animated animate__fadeIn animate__delay-1s">
+                    <div class="me-4" style="font-size: 2rem; color: var(--accent-color);">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div>
+                        <h5>Accès à vos réservations</h5>
+                        <p class="mb-0">Retrouvez toutes vos réservations en un seul endroit</p>
+                    </div>
+                </div>
+                
+                <div class="d-flex align-items-center mb-4 animate__animated animate__fadeIn animate__delay-1s">
+                    <div class="me-4" style="font-size: 2rem; color: var(--accent-color);">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div>
+                        <h5>Gestion simplifiée</h5>
+                        <p class="mb-0">Modifiez ou annulez vos réservations facilement</p>
+                    </div>
+                </div>
+                
+                <div class="d-flex align-items-center animate__animated animate__fadeIn animate__delay-1s">
+                    <div class="me-4" style="font-size: 2rem; color: var(--accent-color);">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div>
+                        <h5>Offres exclusives</h5>
+                        <p class="mb-0">Bénéficiez de réductions réservées aux membres</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="login-right">
+            <div class="login-form">
+                <div class="form-header">
+                    <h2>Connectez-vous</h2>
+                    <p>Accédez à votre compte StayFinder</p>
+                </div>
+                
+                <div class="social-login">
+                    <button class="social-btn google">
+                        <i class="fab fa-google"></i>
+                    </button>
+                    <button class="social-btn facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </button>
+                    <button class="social-btn apple">
+                        <i class="fab fa-apple"></i>
+                    </button>
+                </div>
+                
+                <div class="divider">
+                    <span class="divider-text">OU</span>
+                </div>
+                
+                <form>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Adresse email</label>
+                        <i class="fas fa-envelope input-icon"></i>
+                        <input type="email" class="form-control input-with-icon" id="email" placeholder="votre@email.com" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="password" class="form-label">Mot de passe</label>
+                        <i class="fas fa-lock input-icon"></i>
+                        <input type="password" class="form-control input-with-icon" id="password" placeholder="Votre mot de passe" required>
+                    </div>
+                    
+                    <div class="remember-forgot">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="remember">
+                            <label class="form-check-label" for="remember">
+                                Se souvenir de moi
+                            </label>
+                        </div>
+                        <a href="forgot-password.html" style="color: var(--secondary-color);">Mot de passe oublié ?</a>
+                    </div>
+                    
+                    <button type="submit" class="btn-login">
+                        Se connecter
+                    </button>
+                    
+                    <div class="register-link">
+                        Nouveau sur StayFinder ? <a href="inscription.html">Créez un compte</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scriptconnexion.js"></script>
+</body>
+</html>
